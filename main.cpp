@@ -1,17 +1,27 @@
-
-#include<iostream>
-#include<stdio.h>
+#include <iostream>
+#include<conio.h>
 using namespace std;
+
 int main()
 {
+    int num1,num2,sum,sub,mul,div;
+    cout<<"Enter Number1 :";
+    cin>>num1;
+    cout<<"Enter Number2 :";
+    cin>>num2;
+    sum=num1+num2;
+    sub=num1-num2;
+    mul=num1*num2;
+    div=num1%num2;
+
+    cout<<sum<<endl;
+    cout<<sub<<endl;
+    cout<<mul<<endl;
+    cout<<div<<endl;
 
 
-    float ans=0;
-    float y;
-    cout<<"enter your Temp as Farenheit:";
-    cin>>y;
-    cout<<"\n Ur temp as Celsuis:";
-    ans=(5.0/9.0)*(y-32);
-    cout<<ans<<endl;
 
+    getch();
+    return 0;
 }
+
